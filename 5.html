@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1><center>Formularios</center></h1>
+    <hr/>
+    <form action="mailto:direccion_de_email" method="post" enctype="text/plain">
+      Nombre:<input type="text" name="nombre" placeholder="Escribe Tu Nombre" size="10" maxlength="12"/>
+      <br/>
+      <br>
+      Contraseña:
+      <input type="password"name="contraseña" placeholder="Escribe Tu Contraseña"/>
+      <br/>
+      <br>
+      <input type="submit" value="Enviar" />
+      <br/>
+      <br>
+      Comentarios <textarea name="Comentarios" cols="20" rows="5" placeholder="Comentarios"></textarea>
+      <br/>
+      <br>
+      Color Favorito:
+      <select name="Color Favorito" id="">
+          <option>Rojo</option>
+          <option>Verde</option>
+          <option>Verde</option>
+          <option>Amarillo</option>
+      </select>
+
+      <INPUT TYPE="checkbox" NAME="Lista" checked> 
+        Sí, deseo ser incluido en la lista de correo. <br><br>
+
+    Sistema operativo favorito <br>
+        <INPUT TYPE="radio" NAME="SistemaOperativo" VALUE="windows" CHECKED> Windows
+        <INPUT TYPE="radio" NAME="SistemaOperativo" VALUE="Mac"> Mac 
+        <INPUT TYPE="radio" NAME="SistemaOperativo" VALUE="Unix"> Unix 
+
+
+
+        <br><br>
+        <INPUT TYPE="submit" VALUE="enviar">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <INPUT TYPE="reset" VALUE="borrar"> 
+
+    </form>
+  </body>
+</html>
